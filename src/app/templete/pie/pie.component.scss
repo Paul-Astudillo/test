@@ -1,0 +1,49 @@
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  section {
+    display: table;
+    background-color: #f1f1f1;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 12px;
+    margin-left: 4px;
+    min-width: 80px;
+    color: #333;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    max-width: 400px;
+  }
+  
+  .example-button-row .mat-mdc-button-base {
+    margin: 4px 4px 4px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+  }
+  
